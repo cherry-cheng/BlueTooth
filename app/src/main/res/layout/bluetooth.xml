@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/scanButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描周围的蓝牙设备"/>
+
+    <Button
+        android:id="@+id/visibleButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置蓝牙可见性"/>
+
+    <Button
+        android:id="@+id/discoverButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="搜索附近所有蓝牙设备"/>
+</LinearLayout>
